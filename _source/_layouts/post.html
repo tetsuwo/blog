@@ -1,0 +1,49 @@
+---
+layout: main
+---
+
+
+<article class="post post-text clearfix">
+    <header class="post-head clearfix">
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    </header>
+    
+    <div class="post-body clearfix">{{ content }}</div>
+    
+    <footer class="post-foot clearfix">
+        <div class="clearfix">
+            <p class="tags">
+                {% for tag in page.tags %}
+                <a href="/tagged/{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+            </p>
+            <time datetime=" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y.%m.%d' }}</time>
+        </div>
+        
+        <div class="post-social-plugin clearfix">
+            <div class="addthis_toolbox addthis_default_style" 
+                 addthis:url="http://tetsuwo.tumblr.com/post/153262961187/cocoapods-xcodeproj-was-renamed-to-project" 
+                 addthis:title="CocoaPods: The dependency `Xxxxxxxxxx (= x.x)` is not used in any concrete target.">
+                
+                <a class="addthis_button_tweet" tw:via="tetsukamp"></a>
+                <a href="http://b.hatena.ne.jp/entry/http://tetsuwo.tumblr.com/post/153262961187/cocoapods-xcodeproj-was-renamed-to-project" 
+                   class="hatena-bookmark-button" 
+                   data-hatena-bookmark-layout="standard"></a><a class="pocket-btn" 
+                   data-save-url="http://tetsuwo.tumblr.com/post/153262961187/cocoapods-xcodeproj-was-renamed-to-project" 
+                   data-pocket-label="pocket" 
+                   data-pocket-count="horizontal" 
+                   data-lang="en"></a>
+               
+                <a class="addthis_button_google_plusone" 
+                   g:plusone:size="medium"></a>
+                
+                <a class="addthis_button_facebook_like" 
+                   fb:like:layout="button_count" 
+                   fb:like:width="105" 
+                   fb:like:ref=""></a>
+                
+                <a class="addthis_counter addthis_pill_style"></a>
+            </div>
+        </div>
+    </footer>
+</article>

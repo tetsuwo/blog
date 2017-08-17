@@ -1,0 +1,39 @@
+---
+layout: main
+title: site.title
+---
+
+{% for post in paginator.posts %}
+    <article class="post post-text clearfix">
+        <header class="post-head clearfix">
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        </header>
+        
+        <div class="post-body clearfix">{{ post.content }}</div>
+
+        <footer class="post-foot clearfix">
+            <div class="clearfix">
+                <p class="tags">
+                    {% for tag in post.tags %}
+                        <a href="/tagged/{{ tag }}">{{ tag }}</a>
+                    {% endfor %}
+                </p>
+                <time datetime=" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+            </div>
+        </footer>
+    </article>
+{% endfor %}
+
+<div class="pagination">
+    {% if paginator.previous_page %}
+        <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+    {% else %}
+        <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+        <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+    {% else %}
+        <span class="next ">Next</span>
+    {% endif %}
+</div>
