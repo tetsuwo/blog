@@ -45,7 +45,7 @@ defaults:
     values:
       permalink: /post/:year:month:day/:title.html
 
-source: _source
+#source: _source
 
 # My variables
 homeurl: https://tetsuwo.github.io
