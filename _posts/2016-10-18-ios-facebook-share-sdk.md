@@ -1,4 +1,9 @@
-# iOS: SLServiceTypeFacebook で投稿内容がデフォルト設定できない
+---
+layout: post
+title: "iOS: SLServiceTypeFacebook で投稿内容がデフォルト設定できない"
+date: 2016-10-18 00:00:00 +0900
+categories: Facebook iOS
+---
 
 
     NSString *message = @"Facebook Share Test";
