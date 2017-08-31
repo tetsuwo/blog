@@ -89,7 +89,24 @@ canonical_prefix: /en
                     </aside>
                     <section class="sider-group clearfix">
                         <h1 class="sider-title">Categories</h1>
-                        <ul id="tags"></ul>
+                    </section>
+
+                    {% assign tag_names = "" | split: "|"  %}
+                    
+                    {% for posts_by_tag in site.tags %}
+                      {% assign tag_names = tag_names | push: posts_by_tag.first %}
+                    {% endfor %}
+                    
+                    {% assign tag_names = tag_names | sort %}
+                    <section class="sider-group clearfix">
+                        <h1 class="sider-title">Tags</h1>
+                        <ul id="tags">
+                            {% for tag_name in tag_names %}
+                                <li><a href="{{ site.baseurl }}/tags#{{ tag_name | slugize }}">
+                                    {{ tag_name }}
+                                </a></li>
+                            {% endfor %}
+                        </ul>
                     </section>
                     <aside class="sider-group clearfix"><a class="twitter-timeline" href="https://twitter.com/tetsukamp" data-widget-id="269463633367547904" data-width="200" width="200">@tetsukamp からのツイート</a></aside>
                     <aside class="sider-group clearfix">

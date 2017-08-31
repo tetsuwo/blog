@@ -3,7 +3,8 @@ layout: post
 title: "クレジットカード、国際ブランドの違いとは"
 slug: creditcard
 date: 2017-08-18 01:51:10 +0900
-categories: creditcard
+tags:
+- Creditcard
 ---
 新しい銀行口座を開設する際に、クレジットカードの国際ブランドである Mastercard と VISA、JCB から、1 つを選ぶ機会があり、これらのブランドの違いってなんだっけ？というところから、クレジットカードについて調べてみることにしました。
 
