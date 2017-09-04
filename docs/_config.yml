@@ -35,8 +35,8 @@ defaults:
     values:
       permalink: /post/:year:month:day/:title.html
 
-destination: public
-source: src
+#destination: public
+#source: src
 
 
 paginate: 5
