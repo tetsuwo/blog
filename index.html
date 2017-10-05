@@ -9,7 +9,7 @@ title: をぶろぐ
             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         </header>
         
-        <div class="post-body clearfix">{{ post.content }}</div>
+        <div class="post-body clearfix">{{ post.content | split:"<!-- more -->" }}</div>
 
         <footer class="post-foot clearfix">
             <div class="clearfix">
