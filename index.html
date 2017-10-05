@@ -10,6 +10,12 @@ title: をぶろぐ
         </header>
         
         <div class="post-body clearfix">{{ post.content | split:"<!-- more -->" | first }}</div>
+        
+        {% if post.content contains "<!-- more -->" %}
+            <div class="post-body clearfix">
+                <a href="{{ post.url }}">つづきをみる</a>
+            </div>
+        {% endif %}
 
         <footer class="post-foot clearfix">
             <div class="clearfix">
