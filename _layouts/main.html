@@ -28,26 +28,6 @@
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
             ga('create', 'UA-1901624-1', 'auto');
             ga('send', 'pageview');
-
-            var addthis_share = {
-                templates: 'をぶろぐ from @tetsukamp'
-            };
-
-            var _debugger = function(val) {
-                if (true) {
-                    console.log(val);
-                }
-            };
-            
-            // disqus
-            var disqus_url = '';
-            var disqus_title = '';
-            var disqus_shortname = 'techlogtetsuwooishi';
-            (function(d) {
-                var s = d.createElement('script'); s.async = true;
-                s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-                (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
-            }(document));
         </script>
     </head>
     <body id="top">
@@ -75,7 +55,7 @@
             <div id="sider" class="clearfix">
                 <div class="sider-inner">
                     <aside class="sider-group clearfix">
-                        <script language="javascript" type="text/javascript" src="http://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
+                        <script language="javascript" type="text/javascript" src="https://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
                         <script language="javascript" type="text/javascript">
                             Hatena.BookmarkWidget.url = "http://tetsuwo.tumblr.com";
                             Hatena.BookmarkWidget.title = "Popular Articles";
@@ -86,9 +66,9 @@
                             Hatena.BookmarkWidget.load();
                         </script>
                     </aside>
-                    <section class="sider-group clearfix">
+                    <!--<section class="sider-group clearfix">
                         <h1 class="sider-title">Categories</h1>
-                    </section>
+                    </section>-->
 
                     {% assign tag_names = "" | split: "|"  %}
                     
@@ -101,13 +81,15 @@
                         <h1 class="sider-title">Tags</h1>
                         <ul id="tags">
                             {% for tag_name in tag_names %}
-                                <li><a href="{{ site.baseurl }}/tags#{{ tag_name | slugize }}">
+                                <li><a href="{{ site.baseurl }}/tag/{{ tag_name | slugize }}">
                                     {{ tag_name }}
                                 </a></li>
                             {% endfor %}
                         </ul>
                     </section>
-                    <aside class="sider-group clearfix"><a class="twitter-timeline" href="https://twitter.com/tetsukamp" data-widget-id="269463633367547904" data-width="200" width="200">@tetsukamp からのツイート</a></aside>
+                    <aside class="sider-group clearfix">
+                        <a class="twitter-timeline" href="https://twitter.com/tetsukamp" data-widget-id="269463633367547904" data-width="200" width="200">@tetsukamp からのツイート</a>
+                    </aside>
                 </div>
             </div>
             <!-- /#sider -->
@@ -144,7 +126,7 @@
                         <h3 id="others">Others</h3>
                         <ul>
                             <li>
-                                <a href="http://b.hatena.ne.jp/entrylist?url=http://tetsuwo.tumblr.com/"><img src="http://b.hatena.ne.jp/bc/bl/http://tetsuwo.tumblr.com/" class="bcounter" alt="Hatena"></a>
+                                <a href="https://b.hatena.ne.jp/entrylist?url=http://tetsuwo.tumblr.com/"><img src="https://b.hatena.ne.jp/bc/bl/http://tetsuwo.tumblr.com/" class="bcounter" alt="Hatena"></a>
                             </li>
                         </ul>
                     </nav>
@@ -154,55 +136,6 @@
                 </div>
             </div>
         </footer>
-
-        <script>
-            var _awakeFacebookPlugins = function() {
-                if (!FB || !FB.XFBML) {
-                    return;
-                }
-                $('.facebook-like-box').each(function() {
-                    $(this).empty().append($('<fb:like-box />').attr({
-                        href: $(this).attr('data-href'),
-                        width: $('#sider .sider-inner').width(),
-                        height: $(this).attr('data-height'),
-                        show_faces: $(this).attr('data-show_faces'),
-                        border_color: $(this).attr('data-border_color'),
-                        stream: $(this).attr('data-stream'),
-                        header: $(this).attr('data-border_color')
-                    }));
-                });
-                $('.facebook-comments').each(function() {
-                    $(this).empty().append($('<fb:comments />').attr({
-                        href: $(this).attr('data-href'),
-                        width: $('#main').width(),
-                        num_posts: $(this).attr('data-num_posts')
-                    }));
-                });
-                FB.XFBML.parse();
-            };
-            window.fbAsyncInit = function() {
-                FB.init({
-                    appId: '48119224995',
-                    status: true,
-                    cookie: true,
-                    xfbml: false
-                });
-                _debugger('fbAsyncInit');
-                _awakeFacebookPlugins();
-            };
-            jQuery(window).resize(function() {
-                if (localStorage) {
-                    if (localStorage._width && localStorage._width == $('body').width()) {
-                        return;
-                    }
-
-                    localStorage._width = $('body').width();
-
-                    _debugger('onResize');
-                    _awakeFacebookPlugins();
-                }
-            });
-        </script>
 
         <script src="/assets/js/bundle.js"></script>
         {% if page.javascripts %}

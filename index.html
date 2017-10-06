@@ -21,7 +21,7 @@ title: をぶろぐ
             <div class="clearfix">
                 <p class="tags">
                     {% for tag in post.tags %}
-                        <a href="/tagged/{{ tag }}">{{ tag }}</a>
+                        <a href="/tag/{{ tag }}">{{ tag }}</a>
                     {% endfor %}
                 </p>
                 <time datetime=" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y.%m.%d' }}</time>
