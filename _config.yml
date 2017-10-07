@@ -54,7 +54,11 @@ homeurl: https://tetsuwo.github.io
 exclude:
   - Gemfile
   - Gemfile.lock
+  - webpack.config.js
+  - package.json
+  - package-lock.json
   - node_modules
+  - .bundle/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
