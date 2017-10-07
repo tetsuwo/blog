@@ -54,6 +54,7 @@
 
             <div id="sider" class="clearfix">
                 <div class="sider-inner">
+                    <!--
                     <aside class="sider-group clearfix">
                         <script language="javascript" type="text/javascript" src="https://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
                         <script language="javascript" type="text/javascript">
@@ -66,6 +67,8 @@
                             Hatena.BookmarkWidget.load();
                         </script>
                     </aside>
+                    -->
+
                     <!--<section class="sider-group clearfix">
                         <h1 class="sider-title">Categories</h1>
                     </section>-->
@@ -87,9 +90,6 @@
                             {% endfor %}
                         </ul>
                     </section>
-                    <aside class="sider-group clearfix">
-                        <a class="twitter-timeline" href="https://twitter.com/tetsukamp" data-widget-id="269463633367547904" data-width="200" width="200">@tetsukamp からのツイート</a>
-                    </aside>
                 </div>
             </div>
             <!-- /#sider -->
@@ -145,10 +145,13 @@
         <script src="/assets/vendor/snap.svg/0.4.1/snap.svg-min.js"></script>
         <script src="/assets/vendor/sequence-diagram/2.0.1/sequence-diagram-min.js"></script>
         <script src="/assets/js/bundle.js"></script>
+
         {% if page.javascripts %}
             {% for javascript in page.javascripts %}
                 <script src="{{ javascript }}"></script>
             {% endfor %}
         {% endif %}
+
+        <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=tetsuwo"></script> 
     </body>
 </html>

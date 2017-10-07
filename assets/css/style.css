@@ -57,7 +57,7 @@ table {
  */
 
 body {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
     font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS UI Gothic', 'Lucida Grande', sans-serif;
     color: #333;
@@ -442,21 +442,18 @@ article.permalink .post-body { margin-bottom: 2em; }
         float: right;
     }
 
-/* -- addthis -- */
-.addthis_toolbox .hatena-bookmark-button-frame,
-.addthis_toolbox .pocket-btn,
-.addthis_toolbox .IN-widget {
-    float: left;
-    margin-right: .25em;
-}
-
 /* -- social plugin -- */
 .post-social-plugin {
     margin: 1em 0;
-    border-bottom: 1px dotted #eee;
     padding: .5em 0;
     vertical-align: middle;
 }
+    .post-head .post-social-plugin {
+    }
+
+    .post-foot .post-social-plugin {
+        border-bottom: 1px dotted #eee;
+    }
 
 /* iPhone 3G/3GS CSS */
 @media only screen and (max-width: 940px) {

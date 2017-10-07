@@ -6,10 +6,23 @@ layout: main
 <article class="post post-text clearfix">
     <header class="post-head clearfix">
         <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+
+        <div class="clearfix" style="margin-top:10px;">
+            <p class="tags">
+                {% for tag in page.tags %}
+                <a href="/tag/{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+            </p>
+            <time datetime=" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y.%m.%d' }}</time>
+        </div>
     </header>
     
     <div class="post-body clearfix">{{ content }}</div>
     
+    <div class="post-social-plugin clearfix">
+        <div class="addthis_inline_share_toolbox"></div>
+    </div>
+
     <footer class="post-foot clearfix">
         <div class="clearfix">
             <p class="tags">
@@ -19,8 +32,7 @@ layout: main
             </p>
             <time datetime=" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y.%m.%d' }}</time>
         </div>
-        
-        <div class="post-social-plugin clearfix">
-        </div>
+
+        <div class="addthis_relatedposts_inline"></div>
     </footer>
 </article>
