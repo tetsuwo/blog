@@ -47,7 +47,7 @@ Chrome の管理機能に簡単にアクセスするための拡張機能「Back
 |プラグイン一覧|about:plugins|--|
 |キャッシュ一覧|about:cache|chrome://cache|
 |メモリの使用状況を表示|about:memory|--|
-|各種統計情報|about:stats|--|--|
+|各種統計情報|about:stats|--|
 |DNS の記録|about:dns|chrome://dns|
 |ネットワーク状況|about:network|--|
 |クラッシュ状態|about:crash|--|
