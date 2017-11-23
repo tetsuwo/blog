@@ -2,7 +2,7 @@
 layout: post
 title: "Chrome: 管理機能（隠し機能）へのアクセス"
 slug: chrome-urls
-date: 2017-11-21 00:00:00 +0900
+date: 2017-11-23 19:40:00 +0900
 tags:
 - Google Chrome
 ---
@@ -10,12 +10,14 @@ tags:
 
 ## 隠し機能の全 URL
 
-List of Chrome URLs という chrome: の URL がすべて載ったページがあるので、それですべての URL を確認してみます。
+List of Chrome URLs という chrome: の URL がすべて載っているページがあるので、それですべての URL を確認してみます。
 
 
-#### Mac の Chrome
+### List of Chrome URLs
 
-##### List of Chrome URLs
+Windows が手元にないので Mac で確認します。
+
+<!-- more -->
 
 |URL|説明|確認バージョン|
 |-|-|-|
@@ -87,7 +89,7 @@ List of Chrome URLs という chrome: の URL がすべて載ったページが�
 |chrome://webrtc-logs|最近記録された WebRTC ログの表示|62.0.3202.94|
 
 
-##### For Debug
+#### For Debug
 
 > The following pages are for debugging purposes only. Because they crash or hang the renderer, they're not linked directly; you can type them into the address bar if you need them.
 
@@ -108,7 +110,10 @@ List of Chrome URLs という chrome: の URL がすべて載ったページが�
 - chrome://restart/
 
 
-#### iOS の Chrome
+### iOS の Chrome
+
+iOS にも List of Chrome URLs があります。  
+しかし、PC とは違いだいぶ少ないです。
 
 - chrome://chrome-urls
 - chrome://credits
