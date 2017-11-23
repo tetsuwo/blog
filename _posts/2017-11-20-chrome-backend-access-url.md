@@ -26,7 +26,7 @@ Chrome の管理機能に簡単にアクセスするための拡張機能「Back
 どうやら `about:` 系は 2009 年くらいから `chrome:` の URL スキームにリダイレクトされるようになっていたようです。
 （なので辛うじて使えたと）
 
-参考：https://support.google.com/chrome/forum/AAAAP1KN0B0GsCAG8T7vfo/?hl=en
+[参考](https://support.google.com/chrome/forum/AAAAP1KN0B0GsCAG8T7vfo/?hl=en)
 
 <!-- more -->
 
@@ -65,7 +65,7 @@ Chrome の管理機能に簡単にアクセスするための拡張機能「Back
 
 `about:plugins`は Chrome 57 で廃止されていたようです。
 
-参考：https://support.google.com/chrome/forum/AAAAP1KN0B01VNwlragY-s/?hl=en
+[参考](https://support.google.com/chrome/forum/AAAAP1KN0B01VNwlragY-s/?hl=en)
 
 その代わりに、 `chrome://component` が用意されていますが、まったく同じ用途かというとそうではないようです。
 
