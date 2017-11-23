@@ -74,4 +74,4 @@ Chrome の管理機能に簡単にアクセスするための拡張機能「Back
 
 List of Chrome URLs という chrome: の URL がすべて載ったページがあるので、別のページにそれをまとめてみました。
 
-[Chrome: 管理機能（隠し機能）へのアクセス](/post/20171121/chrome-urls.html)
+[Chrome: 管理機能（隠し機能）へのアクセス](/post/20171123/chrome-urls.html)
