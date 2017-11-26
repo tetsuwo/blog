@@ -21,7 +21,11 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
 #  - jekyll-paginate-category
+
+whitelist:
+  - jekyll-redirect-from
 
 defaults:
   - 
