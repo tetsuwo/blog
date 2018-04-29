@@ -11,6 +11,19 @@ redirect_from:
 - /post/44706350593/github-travis-continuous-integration
 ---
 
+<!--
+## 目次
+
+1. [Travis CI とは](#sec-1)
+2. [Travis CI のサポート言語](#sec-2)
+3. [Travis CI のビルドライフサイクル](#sec-3)
+4. [設定ファイル（.travis.yml）](#sec-4)
+5. [設定ファイル（.travis.yml）の設定例と解説](#sec-5)
+6. [設定ファイル（.travis.yml）の検証](#sec-6)
+7. [Travis CI との接続方法](#sec-7)
+8. [Tips](#sec-8)
+9. [参考記事](#sec-9)
+-->
 
 ## <a id="sec-1"></a> 1. Travis CI とは
 
@@ -18,7 +31,7 @@ redirect_from:
 
 *継続的インテグレーションってなんだ？*
 
-&gt; 継続的インテグレーション、CI（英: continuous integration）とは、主にプログラマーのアプリケーション作成時の品質改善や納期の短縮のための習慣のことである。エクストリーム・プログラミング (XP) のプラクティスの一つで、狭義にはビルドやテスト、インスペクションなどを継続的に実行していくことを意味する。特に、近年の開発においては、継続的インテグレーションをサポートするソフトウェアを使用することがある。
+> 継続的インテグレーション、CI（英: continuous integration）とは、主にプログラマーのアプリケーション作成時の品質改善や納期の短縮のための習慣のことである。エクストリーム・プログラミング (XP) のプラクティスの一つで、狭義にはビルドやテスト、インスペクションなどを継続的に実行していくことを意味する。特に、近年の開発においては、継続的インテグレーションをサポートするソフトウェアを使用することがある。
 
 引用: [継続的インテグレーション - Wikipedia](http://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%82%A4%E3%83%B3%E3%83%86%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)
 
@@ -26,7 +39,26 @@ Travis CI は GitHub と連携しており、CI したいリポジトリーを�
 
 以下のような流れでビルド・テストが行われます。
 
-     +---&gt; [Developer] --- (1) ---&gt; [GitHub]  2. Travis CI のサポート言語
+     +---> [Developer] --- (1) ---> [GitHub] <---+
+     |                                           |
+     +----- (3) ----- [Travis CI] ----- (2) -----+
+
+    (1) ソースコミット
+    (2) 未テストのコミット取得
+    (3) テスト結果を送信
+
+<!-- more -->
+
+そもそもの CI を深く知りたい方は以下の書籍が参考になると思います。
+
+- [継続的デリバリー 信頼できるソフトウェアリリースのためのビルド・テスト・デプロイメントの自動化](http://www.amazon.co.jp/gp/product/4048707876/t5o-22/ref=nosim)
+- [継続的インテグレーション入門](http://www.amazon.co.jp/gp/product/482228395X/t5o-22/ref=nosim)
+- [Jenkins実践入門　～ビルド・テスト・デプロイを自動化する技術 ](http://www.amazon.co.jp/gp/product/4774148911/t5o-22/ref=nosim)
+
+GitHub と CI との連携は書籍 [GitHub実践入門](http://amazon.co.jp/o/ASIN/477416366X/t5o-22/ref=nosim) が参考になるかもしれません。
+
+
+### <a id="sec-2"></a> 2. Travis CI のサポート言語
 
 以下のプログラミング言語をサポートしています。
 
@@ -215,9 +247,9 @@ Travis CI 側のリポジトリ詳細画面で自動生成されたものをコ�
 
 ### <a id="sec-9"></a> 9. 参考書籍・記事
 
-<a href="http://www.amazon.co.jp/gp/product/4048707876/tetsukamp-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4048707876&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tetsukamp-22" alt="参考書籍1"></a>
-<a href="http://www.amazon.co.jp/gp/product/4774148911/tetsukamp-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4774148911&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tetsukamp-22" alt="参考書籍2"></a>
-<a href="http://www.amazon.co.jp/gp/product/4774156167/tetsukamp-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4774156167&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tetsukamp-22" alt="参考書籍3"></a>
+<a href="http://www.amazon.co.jp/gp/product/4048707876/t5o-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4048707876&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍1"></a>
+<a href="http://www.amazon.co.jp/gp/product/4774148911/t5o-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774148911&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍2"></a>
+<a href="http://www.amazon.co.jp/gp/product/4774156167/t5o-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774156167&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍3"></a>
 
 - [Travis CI: Configuring your Travis CI build with .travis.yml](http://about.travis-ci.org/docs/user/build-configuration/)
 - [Travis CIでブラウザテスト ? The little book of Buster.JS 1.0 documentation](http://the-little-book-of-busterjs.readthedocs.org/en/latest/doc/column/TravisCI/)
