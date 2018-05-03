@@ -72,5 +72,6 @@ redirect_from:
 
 これ読んで勉強しましょうね。
 
-[入門git - Travis Swivegood](http://www.amazon.co.jp/exec/obidos/asin/427406767X/t5o-22/) 
+<a href="https://www.amazon.co.jp/gp/product/427406767X/t5o-22/ref=nosim"><img src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=427406767X&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="入門git - Travis Swivegood"></a>
+
 
