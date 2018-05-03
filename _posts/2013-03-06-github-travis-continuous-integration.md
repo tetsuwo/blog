@@ -248,10 +248,10 @@ Travis CI 側のリポジトリ詳細画面で自動生成されたものをコ�
 
 ### <a id="sec-9"></a> 9. 参考書籍・記事
 
-<a href="http://www.amazon.co.jp/gp/product/4873118166/t5o-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873118166&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍1"></a>
-<a href="http://www.amazon.co.jp/gp/product/4048707876/t5o-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4048707876&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍1"></a>
-<a href="http://www.amazon.co.jp/gp/product/4774148911/t5o-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774148911&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍2"></a>
-<a href="http://www.amazon.co.jp/gp/product/4774156167/t5o-22/ref=nosim"><img src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774156167&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍3"></a>
+<a href="https://www.amazon.co.jp/gp/product/4873118166/t5o-22/ref=nosim"><img src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873118166&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍1"></a>
+<a href="https://www.amazon.co.jp/gp/product/4048707876/t5o-22/ref=nosim"><img src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4048707876&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍1"></a>
+<a href="https://www.amazon.co.jp/gp/product/4774148911/t5o-22/ref=nosim"><img src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774148911&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍2"></a>
+<a href="https://www.amazon.co.jp/gp/product/4774156167/t5o-22/ref=nosim"><img src="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774156167&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=t5o-22" alt="参考書籍3"></a>
 
 - [Travis CI: Configuring your Travis CI build with .travis.yml](http://about.travis-ci.org/docs/user/build-configuration/)
 - [Travis CIでブラウザテスト ? The little book of Buster.JS 1.0 documentation](http://the-little-book-of-busterjs.readthedocs.org/en/latest/doc/column/TravisCI/)
