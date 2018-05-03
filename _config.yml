@@ -44,7 +44,7 @@ defaults:
 
 
 paginate: 5
-paginate_path: "page-:num"
+paginate_path: "page/:num"
 
 #category_dir: "categories"
 #category_layout: "index.html"
