@@ -7,8 +7,8 @@ tags:
 - Travis CI
 - CI
 - Github
-redirect_from: 
-- /post/44706350593/github-travis-continuous-integration
+migration_from: 
+- http://tetsuwo.tumblr.com/post/44706350593/github-travis-continuous-integration
 ---
 
 <!--
