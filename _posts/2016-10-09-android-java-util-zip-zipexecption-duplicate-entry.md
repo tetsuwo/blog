@@ -6,8 +6,8 @@ categories: Facebook iOS
 tags:
 - Android
 - Android Studio
-redirect_from: 
-- /post/151562190527/android-java-util-zip-zipexecption-duplicate-entry
+migration_from: 
+- http://tetsuwo.tumblr.com/post/151562190527/android-java-util-zip-zipexecption-duplicate-entry
 ---
 
 Android アプリの Gradle ビルドを走らせたときに下記のエラーに遭遇。
