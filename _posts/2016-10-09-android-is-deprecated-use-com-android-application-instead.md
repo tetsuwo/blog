@@ -7,8 +7,8 @@ tags:
 - Android
 - Android Studio
 - Gradle
-redirect_from: 
-- /post/151562798262/android-is-deprecated-use-com-android-application-instea
+migration_from: 
+- http://tetsuwo.tumblr.com/post/151562798262/android-is-deprecated-use-com-android-application-instea
 ---
 
 Android Studio 上で build.gradle の整理をしているときに気付いたのですが、apply plugin: 'android' に打ち消し線が入るようになっていました。
