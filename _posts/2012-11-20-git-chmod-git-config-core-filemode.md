@@ -5,8 +5,8 @@ date: 2012-11-20 01:19:00 +0900
 categories: Git
 tags:
 - Git
-redirect_from: 
-- /post/36066698390/git-chmod-git-config
+migration_from: 
+- http://tetsuwo.tumblr.com/post/36066698390/git-chmod-git-config
 ---
 
 
