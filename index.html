@@ -31,10 +31,10 @@ title: をぶろぐ
 {% endfor %}
 
 <div class="pagination">
+    <span class="page_number">{{ paginator.page }} / {{ paginator.total_pages }}</span>：
     {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path | replace: 'index.html', '' }}">前のページ</a>
     {% endif %}
-    <span class="page_number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}">次のページ</a>
     {% endif %}
