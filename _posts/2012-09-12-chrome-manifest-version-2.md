@@ -4,7 +4,7 @@ title: "Chrome 拡張機能・アプリの Manifest Version を 1 から 2 に�
 date: 2012-09-12 20:21:00 +0900
 categories: Chrome
 tags:
-- Chrome
+- Google Chrome
 - Chrome Extension
 - Chrome App
 redirect_from: 
@@ -14,12 +14,12 @@ redirect_from:
 
 ちょっと前（厳密には2012年7月4日？）に Chrome Web Store Team から以下のようなメールが届きました。
 
-&gt; Manifest_Version 1: Manifest Version 1 has been deprecated since Chrome 18, and when Chrome 21 hits stable in mid-August the Chrome Web Store will no longer accept new items with manifest_version 1. Converting to manifest_version 2 should be very simple for the majority of developers, and we encourage all developers to update their extensions and packaged apps as soon as possible. Review our deprecation schedule to determine when to update your items in the store.
+> Manifest_Version 1: Manifest Version 1 has been deprecated since Chrome 18, and when Chrome 21 hits stable in mid-August the Chrome Web Store will no longer accept new items with manifest_version 1. Converting to manifest_version 2 should be very simple for the majority of developers, and we encourage all developers to update their extensions and packaged apps as soon as possible. Review our deprecation schedule to determine when to update your items in the store.
 
 
 ヘボヘボな和訳です。
 
-&gt; Manifest_Version 1: manifest\_version 1 は Chrome 18 以降で非推奨となっており、8月中旬の Chrome 21 安定版リリース際に Chrome Web Store は manifest\_version  1 の新しいアイテムは許可しません。manifest\_version 2 に変換するのは多数の開発者のためにとても簡単にしてあり、私たちが奨励するすべての開発者は拡張機能、パッケージアプリを可能な限り早く更新すべきです。Chrome Web Store でアイテムを更新するタイミングを決定するために廃止スケジュールを検討します。
+> Manifest_Version 1: manifest\_version 1 は Chrome 18 以降で非推奨となっており、8月中旬の Chrome 21 安定版リリース際に Chrome Web Store は manifest\_version  1 の新しいアイテムは許可しません。manifest\_version 2 に変換するのは多数の開発者のためにとても簡単にしてあり、私たちが奨励するすべての開発者は拡張機能、パッケージアプリを可能な限り早く更新すべきです。Chrome Web Store でアイテムを更新するタイミングを決定するために廃止スケジュールを検討します。
 
 
 何が言いたいかというと、要するに「以前までの `manifest.json` のフォーマットでは駄目ですよ。Version2 のフォーマットにアップグレードしてくださいね。」ということです。下に関連するリンクがありますので確認を。
