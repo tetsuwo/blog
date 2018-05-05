@@ -39,16 +39,6 @@ FBSDKShareKit を使うと UI もほとんど変わらずに簡単に実装で�
     [dialog show];
 
 
-
-
-
-
-
-
-
-
-
-
 ### 参考 URL
 
 - [iOS \- シェア機能](https://developers.facebook.com/docs/sharing/ios)
