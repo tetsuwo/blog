@@ -149,13 +149,11 @@
         <script src="/assets/vendor/snap.svg/0.4.1/snap.svg-min.js"></script>
         <script src="/assets/vendor/sequence-diagram/2.0.1/sequence-diagram-min.js"></script>
         <script src="/assets/js/bundle.js"></script>
-
         {% if page.javascripts %}
             {% for javascript in page.javascripts %}
                 <script src="{{ javascript }}"></script>
             {% endfor %}
         {% endif %}
-
         <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=tetsuwo"></script> 
     </body>
 </html>
