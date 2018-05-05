@@ -5,8 +5,8 @@ date: 2011-05-17 18:29:00 +0900
 categories: MySQL
 tags:
 - MySQL
-redirect_from: 
-- /post/5572292332/mysql-order-by-null-null
+migration_from: 
+- http://tetsuwo.tumblr.com/post/5572292332/mysql-order-by-null-null
 ---
 
 こんなんできたのね・・・。
