@@ -6,9 +6,8 @@ categories: Chrome
 tags:
 - Google Chrome
 - Chrome Extension
-- Chrome App
-redirect_from: 
-- /post/31273343648/chrome-manifest-version-2
+migration_from: 
+- http://tetsuwo.tumblr.com/post/31273343648/chrome-manifest-version-2
 ---
 
 
