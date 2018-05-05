@@ -6,8 +6,8 @@ tags:
 - iOS
 - CocoaPods
 - Xcode
-redirect_from: 
-- /post/153262938342/cocoapods-xcodeproj-was-renamed-to-project
+migration_from: 
+- http://tetsuwo.tumblr.com/post/153262938342/cocoapods-xcodeproj-was-renamed-to-project
 ---
 
 
