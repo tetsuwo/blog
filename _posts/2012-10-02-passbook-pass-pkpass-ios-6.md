@@ -6,8 +6,8 @@ categories: Passbook
 tags:
 - Passbook
 - iOS
-redirect_from: 
-- /post/32741613415/passbook-pass-pkpass-ios-6
+migration_from: 
+- http://tetsuwo.tumblr.com/post/32741613415/passbook-pass-pkpass-ios-6
 ---
 
 
