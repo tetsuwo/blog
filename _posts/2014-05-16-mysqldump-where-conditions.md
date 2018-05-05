@@ -7,8 +7,8 @@ tags:
 - MySQL
 - mysqldump
 - Database
-redirect_from: 
-- /post/85872149692/mysqldump-where-conditions
+migration_from: 
+- http://tetsuwo.tumblr.com/post/85872149692/mysqldump-where-conditions
 ---
 
 
