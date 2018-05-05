@@ -7,8 +7,8 @@ tags:
 - iOS
 - CocoaPods
 - Xcode
-redirect_from: 
-- /post/153262961187/cocoapods-xcodeproj-was-renamed-to-project
+migration_from: 
+- http://tetsuwo.tumblr.com/post/153262961187/cocoapods-xcodeproj-was-renamed-to-project
 ---
 
 CocoaPods 0.39 以下がサポート切れたので 1.1 系にアップグレードしたら、このようなエラーに見舞われた。
