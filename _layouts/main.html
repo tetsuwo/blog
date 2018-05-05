@@ -78,13 +78,20 @@
                     
                     {% assign tag_names = tag_names | sort %}
                     <section class="sider-group clearfix">
-                        <h1 class="sider-title">Tags</h1>
+                        <h1 class="sider-title">タグ</h1>
                         <ul id="tags">
                             {% for tag_name in tag_names %}
                                 <li><a href="{{ site.baseurl }}/tag/{{ tag_name | slugize }}">
                                     {{ tag_name }}
                                 </a></li>
                             {% endfor %}
+                        </ul>
+                    </section>
+                    
+                    <section class="sider-group clearfix">
+                        <h1 class="sider-title">リンク</h1>
+                        <ul>
+                            <li><a href="http://tetsuwo.tumblr.com">前のブログ</a></li>
                         </ul>
                     </section>
                 </div>
