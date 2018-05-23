@@ -22,7 +22,12 @@ WPF で角丸を実現したいときありますよね。
 `Border` のサンプルコード
 
     // XAML
-    <border borderbrush="#FF000000" borderthickness="1" background="#FFFFFFFF" padding="5" cornerradius="5"></border>
+    <Border 
+        BorderBrush="#FF000000" 
+        BorderThickness="1" 
+        Background="#FFFFFFFF" 
+        Padding="5" 
+        CornerRadius="5" />
 
     // C#
     myBorder = new System.Windows.Controls.Border();
@@ -38,7 +43,12 @@ WPF で角丸を実現したいときありますよね。
 <!-- more -->
 
     // XAML
-    <rectangle stroke="#FF000000" strokethickness="1" fill="#FFFFFFFF" radiusx="5" radiusy="5"></rectangle>
+    <Rectangle 
+        Stroke="#FF000000" 
+        StrokeThickness="1" 
+        Fill="#FFFFFFFF" 
+        RadiusX="5" 
+        RadiusY="5" />
 
     // C#
     myRect = new System.Windows.Shapes.Rectangle();
