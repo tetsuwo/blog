@@ -144,6 +144,14 @@ Google Search Appliance を搭載した iPad は下記のような UA になる�
     Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) GSA/4.1.0.31802 Mobile/11D201 Safari/9537.53
 
 
+### iOS 7 以外のユーザーエージェント
+
+- [iOS 9 系のユーザーエージェント](https://blog.t5o.me/post/20150924/ios-9-useragent-iphone-ipad-ipod-touch.html)
+- [iOS 8 系のユーザーエージェント](https://blog.t5o.me/post/20140922/ios-8-useragent-iphone-ipad-ipod-touch.html)
+- [iOS 6 系のユーザーエージェント](https://blog.t5o.me/post/20121002/ios-6-safari-iphone-ipad.html)
+
+
+
 
 ### ref.
 
