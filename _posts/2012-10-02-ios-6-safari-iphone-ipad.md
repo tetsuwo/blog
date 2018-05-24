@@ -10,7 +10,7 @@ migration_from:
 - http://tetsuwo.tumblr.com/post/32719832082/ios-6-safari-iphone-ipad
 ---
 
-※ [iOS 7 Safari のユーザーエージェント](http://tetsuwo.tumblr.com/post/62159303953/ios-7-safari-iphone-ipad-ipod-touch)
+※ [iOS 7 Safari のユーザーエージェント](https://blog.t5o.me/post/20130924/ios-7-safari-iphone-ipad-ipod-touch.html)
 
 
 *iPhone:*
