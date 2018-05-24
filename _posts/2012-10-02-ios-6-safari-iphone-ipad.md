@@ -23,6 +23,13 @@ migration_from:
     Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X; ja-jp) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25
 
 
+### iOS 6 以外のユーザーエージェント
+
+- [iOS 9 系のユーザーエージェント](https://blog.t5o.me/post/20150924/ios-9-useragent-iphone-ipad-ipod-touch.html)
+- [iOS 8 系のユーザーエージェント](https://blog.t5o.me/post/20140922/ios-8-useragent-iphone-ipad-ipod-touch.html)
+- [iOS 7 系のユーザーエージェント](https://blog.t5o.me/post/20130924/ios-7-safari-iphone-ipad-ipod-touch.html)
+
+
 ref.
 
 - [What is the iOS 6 user agent string?](http://stackoverflow.com/questions/12305566/what-is-the-ios-6-user-agent-string)
