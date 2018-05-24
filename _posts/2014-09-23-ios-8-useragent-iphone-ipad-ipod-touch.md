@@ -113,8 +113,8 @@ iOS バージョン 8 系のユーザーエージェント一覧です。
     Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4
 
 
+### iOS 8 以外のユーザーエージェント
 
-
-[iOS 6 系のユーザーエージェント](https://blog.t5o.me/post/20121002/ios-6-safari-iphone-ipad.html)
-[iOS 7 系のユーザーエージェント](https://blog.t5o.me/post/20130924/ios-7-safari-iphone-ipad-ipod-touch.html)
-[iOS 9 系のユーザーエージェント](https://blog.t5o.me/post/20130924/ios-7-safari-iphone-ipad-ipod-touch.html)
+- [iOS 6 系のユーザーエージェント](https://blog.t5o.me/post/20121002/ios-6-safari-iphone-ipad.html)
+- [iOS 7 系のユーザーエージェント](https://blog.t5o.me/post/20130924/ios-7-safari-iphone-ipad-ipod-touch.html)
+- [iOS 9 系のユーザーエージェント](https://blog.t5o.me/post/20150924/ios-9-useragent-iphone-ipad-ipod-touch.html)
