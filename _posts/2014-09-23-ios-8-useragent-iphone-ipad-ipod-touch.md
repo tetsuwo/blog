@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "iOS 8 Safari のユーザーエージェント - iPhone, iPad, iPod touch"
-date: 2014.09.23 00:00:00 +0900
+date: 2014-09-23 00:00:00 +0900
 categories: iOS
 tags:
 - iOS
