@@ -12,7 +12,7 @@ migration_from:
 ---
 
 
-[こっち（AFHTTPRequestOperationManager で結果キャッシュを無効にする）](/post/151290670657/ios-afnetworking-request-cache) でも触れたのですが、
+[こっち（AFHTTPRequestOperationManager で結果キャッシュを無効にする）](/post/20161003/ios-afnetworking-request-cache.html) でも触れたのですが、
 [NSURLRequestCachePolicy](https://developer.apple.com/reference/foundation/nsurlrequestcachepolicy) の種類だけを抜き出しておいたほうが備忘録的にも探しやすいので残しておく。
 
 | 値 | 説明 |
