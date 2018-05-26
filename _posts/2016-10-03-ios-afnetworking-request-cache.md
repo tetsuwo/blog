@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Objective-C: AFHTTPRequestOperationManager で結果キャッシュを無効にする"
-date: 2016-10-03 00:00:00 +0900
+date: 2016-10-03 09:00:00 +0900
 categories: Objective-C
 tags:
 - Objective-C
