@@ -2,9 +2,9 @@
 layout: post
 title: "Linux: プロセスの一時停止と再開（CentOS）"
 date: 2014-09-11 09:00:00 +0900
-categories: Mac
+categories: Linux
 tags:
-- Mac
+- Linux
 ---
 
 
