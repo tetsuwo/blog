@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "iOS 10 Safari のユーザーエージェント - iPhone, iPad, iPod touch"
-date: 2018-05-26 00:00:00 +0900
+date: 2018-05-26 09:00:00 +0900
 categories: iOS
 tags:
 - iOS
