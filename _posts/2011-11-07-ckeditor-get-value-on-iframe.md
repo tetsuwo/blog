@@ -10,20 +10,20 @@ tags:
 
 ※ CKEditor 4 の話です。
 
-HTML 上で MS Word のようなリッチテキストエディター（WYSIWYG：ウィジウィグ）が実現できることで有名な CKEditor。
+HTML 上で MS Word のようなリッチテキストエディター（WYSIWYG：ウィジウィグ）が実現できることで有名な *CKEditor*。
 
 
 ```
 CKEDITOR.replace('hoge');
 ```
 
-以下のように HTML ドキュメント上の要素 `id="hoge"（#hoge）` に対して *CKEditor* を適用している場合、 これで値を取得できる。
+以下のように HTML ドキュメント上の要素 `id="hoge"（#hoge）` に対して CKEditor を適用している場合、 これで値を取得できる。
 
 ```
 CKEDITOR.instances.hoge.getData();
 ```
 
-CKEditor ではブラウザー上で WYSIWYG（リッチテキストエディター）を実現するために内部で iframe を用いています。
+CKEditor ではブラウザー上で WYSIWYG を実現するために内部で iframe を用いています。
 
 ということもあいまって iframe 内を自力で参照するやり方をしている方がいらっしゃいますが ↑ だけでいけるのです。
 
