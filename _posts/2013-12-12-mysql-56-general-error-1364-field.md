@@ -33,6 +33,8 @@ mysql> SHOW VARIABLES LIKE 'sql_mode';
 
 それぞれの値の説明は公式リファレンスに記載されていました。
 
+<!-- more -->
+
 
 **STRICT_TRANS_TABLES**
 
