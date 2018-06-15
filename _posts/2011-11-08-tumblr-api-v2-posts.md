@@ -10,8 +10,8 @@ tags:
 
 Tumblr API v2 を使って tumblr のポストを表示するサンプルを作った。
 
-<script type="text/javascript" src="http://jsdo.it/blogparts/kx7O/js"></script>
+<script type="text/javascript" src="https://jsdo.it/blogparts/kx7O/js"></script>
 
 こっちはただ単にポストタイトルを表示するだけのサンプル。
 
-<script type="text/javascript" src="http://jsdo.it/blogparts/a3B2/js"></script>
+<script type="text/javascript" src="https://jsdo.it/blogparts/a3B2/js"></script>
