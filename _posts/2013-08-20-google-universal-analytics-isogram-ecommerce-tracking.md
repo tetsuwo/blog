@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Analyticsのトラッキングコードで E コマーストランザクションを収集する方法（Universal Analaytics）"
+title: "Google Analytics のトラッキングコードで E コマーストランザクションを収集する方法（Universal Analaytics）"
 date: 2013-08-20 09:00:00 +0900
 categories: Google Analytics
 tags:
