@@ -1,5 +1,11 @@
-# Twitter: コールバック URL（Callback URL not approved for this client application ...）
-
+---
+layout: post
+title: "Twitter: コールバック URL（Callback URL not approved for this client application ...）"
+date: 2018-06-28 09:00:00 +0900
+categories: Twitter
+tags:
+- Twitter
+---
 
 自分が管理しているサービスで Twitter ログインまわりで下記のアプリケーションエラーが発生していたため調べてみました。
 
