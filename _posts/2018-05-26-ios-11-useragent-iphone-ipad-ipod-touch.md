@@ -108,6 +108,14 @@ Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHT
 ```
 
 
+### iOS 11.4.1
+
+```
+// iPhone
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1
+```
+
+
 
 ### iOS 11 以外のユーザーエージェント
 
