@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "git rm で “fatal: pathspec ‘path/to/~’ did not match any files” が発生 ⇒ git commit -a"
-date: 2013-10-26 03:41:00 +0900
+date: 2013-10-26 10:41:00 +0900
 categories: Git
 tags:
 - Git
