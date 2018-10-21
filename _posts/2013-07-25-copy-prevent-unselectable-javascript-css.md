@@ -67,7 +67,7 @@ tags:
 
 ### 参考 URL
 
-- [user-select - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select)
+- [user-select - CSS \| MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select)
 - [Event compatibility tables](http://www.quirksmode.org/dom/events/)
-- [Event reference - Web technology reference | MDN](https://developer.mozilla.org/en-US/docs/Web/Reference/Events)
-- [.on() | jQuery API Documentation](http://api.jquery.com/on/)
+- [Event reference - Web technology reference \| MDN](https://developer.mozilla.org/en-US/docs/Web/Reference/Events)
+- [.on() \| jQuery API Documentation](http://api.jquery.com/on/)
