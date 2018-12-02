@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java から Kotlin のメソッドを呼び出すときに気をつけること（@JvmStatic）"
-date: 2018-06-28 09:00:00 +0900
+date: 2018-12-02 09:00:00 +0900
 categories: Kotlin
 tags:
 - Kotlin
