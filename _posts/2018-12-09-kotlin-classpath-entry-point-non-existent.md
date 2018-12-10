@@ -16,11 +16,9 @@ Kotlin で記述したテストを実行した際に下記の Warning が発生�
 w: Classpath entry points to a non-existent location: /path/to/app/src/main/kotlin
 ```
 
-調べてみると Kotlin 1.2.51 で修正済みということ。 （[参考](https://github.com/JetBrains/kotlin/blob/master/ChangeLog.md#1251)）
+調べてみると Kotlin 1.2.51 で修正済み （[参考](https://github.com/JetBrains/kotlin/blob/master/ChangeLog.md#1251)）ということ。
 
-この `file.exists()` が本質的な対応コードかな？
-
-https://github.com/JetBrains/kotlin/commit/3fb26d92df54cbd8c56ec9da5c24c018cd064c18#diff-71105cf8ec106334eb651d60189d4ec4R77
+[この](https://github.com/JetBrains/kotlin/commit/3fb26d92df54cbd8c56ec9da5c24c018cd064c18#diff-71105cf8ec106334eb651d60189d4ec4R77) `file.exists()` が本質的な対応コードかな？
 
 
 ### 参考 URL
