@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -57,7 +57,7 @@ table {
  */
 
 body {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS UI Gothic', 'Lucida Grande', sans-serif;
     color: #333;
