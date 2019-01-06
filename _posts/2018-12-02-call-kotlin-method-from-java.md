@@ -13,7 +13,9 @@ tags:
 Kotlin で書かれたオブジェクト「DataStore」があるとする。
 
 ```kotlin
+// kotlin
 object DataStore {
+
     private val shared: DataStore = DataStore
 
     fun shared(): DataStore {
@@ -28,12 +30,14 @@ object DataStore {
 このクラスの `shared` メソッドを Java から呼び出す場合は `INSTANCE` を経由して呼び出す必要がある。
 
 ```java
+// java
 DataStore.INSTANCE.shared().setup(context);
 ```
 
 しかし、 DataStore の `shared` に `JvmStatic` アノテーションを付けると...、
 
 ```kotlin
+// kotlin
 object DataStore {
     private val shared: DataStore = DataStore
 
@@ -50,6 +54,7 @@ object DataStore {
 `INSTANCE` を経由せずに呼び出すことができる。
 
 ```java
+// java
 DataStore.shared().setup(context);
 ```
 
