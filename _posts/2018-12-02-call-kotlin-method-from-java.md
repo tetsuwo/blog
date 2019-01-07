@@ -24,6 +24,7 @@ object DataStore {
 
     fun setup(context: Context) {
     }
+
 }
 ```
 
@@ -39,6 +40,7 @@ DataStore.INSTANCE.shared().setup(context);
 ```kotlin
 // kotlin
 object DataStore {
+
     private val shared: DataStore = DataStore
 
     @JvmStatic
@@ -48,6 +50,7 @@ object DataStore {
 
     fun setup(context: Context) {
     }
+
 }
 ```
 
