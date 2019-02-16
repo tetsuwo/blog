@@ -16,7 +16,8 @@ tags:
 その中でも、サーバーとクライアント、またはサーバー同士のやり取りのためのインターフェイスである Web API（以下、小面倒なので平たく API と呼びます）は Web システムにとって、もはや欠かせないものだと思います。  
 その API を設計する際には多くの人が RESTful API や GraphQL を採用するでしょう。
 
-しかし、採用したものの設計方針が人によって微妙にバラつきがあったり、ドキュメントの運用保守ができていなかったり、モックや API コンソールを作らなければならなかったり、ドキュメントからではなくコードから書く人がいたりと、開発規模や状況に応じていろいろなレベルの課題が存在します。  
+しかし、採用したものの設計方針が人によって微妙にバラつきがあったり、ドキュメントの運用保守ができていなかったり、モックや API コンソールを作らなければならなかったり、ドキュメントからではなくコードから書く人がいたりと、開発規模や状況に応じていろいろなレベルの課題が存在します。
+
 そろそろ上記のようなことは API 設計が終わった段階で 8 割くらい終わっている状態にしたいですよね。  
 API の保守は、ソースコードそのものだけでなく、ドキュメント、API コンソールやスタブ、単体テストなど影響が広範囲に及びます。  
 それらの解決の手助けをしてくれるのが API ドキュメンテーションツール（一部では API フレームワークとも呼ばれている？）です。
@@ -55,8 +56,11 @@ API ドキュメンテーションツールを利用するにあたり、それ�
 
 |項目| OpenAPI Specification（OAS） |API Blueprint|RAML|
 |:--|:-:|:-:|:-:|
-|Web サイト|swagger.io|apiblueprint.org|raml.org|
+|Web サイト|[swagger.io](https://swagger.io)|[apiblueprint.org](https://apiblueprint.org)|[raml.org](https://raml.org)|
 |記述方式|YAML or JSON|Markdown|YAML|
+|リリース|2011 年 7 月|2013 年 4 月|2013 年 9 月|
+|スポンサー|OpenAPI Initiative（OAI）|Apiary|MuleSoft|
+|ソフトウェアライセンス|Apache 2.0|MIT|Apache 2.0|
 
 
 #### OpenAPI Specification（OAS）
@@ -467,7 +471,7 @@ Swagger が強いですね。
 
 |項目|Swagger|Apiary|
 |:--|:-:|:-:|:-:|
-|Web サイト|swagger.io|apiary.io|
+|Web サイト|[swagger.io](https://swagger.io)|[apiary.io](https://apiary.io)|
 |API 言語|OAS|API Blueprint, OAS|
 |エディター|o|o|
 |コンソール|o|o|
