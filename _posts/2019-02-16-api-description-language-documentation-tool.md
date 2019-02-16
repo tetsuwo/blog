@@ -470,8 +470,8 @@ Swagger が強いですね。
 #### 各 API ドキュメンテーションツールの比較表
 
 |項目|Swagger|Apiary|
-|:--|:-:|:-:|:-:|
-|Web サイト|[swagger.io](https://swagger.io)|[apiary.io](https://apiary.io)|
+|:--|:-:|:-:|
+|Web サイト| [swagger.io](https://swagger.io) | [apiary.io](https://apiary.io) |
 |API 言語|OAS|API Blueprint, OAS|
 |エディター|o|o|
 |コンソール|o|o|
