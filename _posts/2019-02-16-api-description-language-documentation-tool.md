@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "API 記述言語やドキュメンテーションツールの比較（Swagger、API Blueprint、RAML）"
+title: "API 記述言語や API ドキュメンテーションツールの比較（Swagger、API Blueprint、RAML）"
 slug: api-description-language-documentation-tool
 date: 2019-02-16 11:30:00 +0900
 tags:
