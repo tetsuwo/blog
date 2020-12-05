@@ -15,6 +15,7 @@ layout: main
             </p>
             <time datetime=" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y.%m.%d' }}</time>
         </div>
+        <!--
         <aside class="ads">
             <p class="ads-sponsored-link">スポンサーリンク</p>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -28,6 +29,7 @@ layout: main
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </aside>
+        -->
     </header>
     
     <div class="post-body clearfix">{{ content }}</div>
@@ -37,7 +39,7 @@ layout: main
     </div>
 
     <footer class="post-foot clearfix">
-
+        <!--
         <aside class="ads">
             <p class="ads-sponsored-link">スポンサーリンク</p>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -51,7 +53,7 @@ layout: main
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </aside>
-
+        -->
         <div class="clearfix">
             <p class="tags">
                 {% for tag in page.tags %}
