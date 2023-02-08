@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Slack] チャンネル ID を確認する方法
+title: "[Slack] チャンネル ID を確認する方法"
 date: 2023-02-08 20:45:00 +0900
 categories: Slack
 tags:
