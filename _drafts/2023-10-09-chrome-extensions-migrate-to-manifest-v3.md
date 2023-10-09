@@ -68,27 +68,16 @@ Chrome 拡張機能の基本的な情報や必要な権限、方針を示すた�
 - 非該当 : Update web accessible resources
 
 
+##### Change the manifest version number
+
 ```diff
- {
-   "name": "__MSG_ext_name__",
-   "description": "__MSG_ext_description__",
-   "default_locale": "en",
-   "background": {
-     "page": "background.html"
-   },
-   "options_page": "options.html",
-   "browser_action": {
-     "default_popup": "popup.html",
-     "default_icon": "images/19.png"
-   },
-   "icons": {
-     "16": "images/16.png",
-     "19": "images/19.png",
-     "48": "images/48.png",
-     "64": "images/64.png",
-     "72": "images/72.png",
-     "128": "images/128.png"
-   },
+-  "manifest_version": 2,
++  "manifest_version": 3
+```
+
+##### Update host permissions
+
+```diff
    "permissions": [
 -    "tabs",
 +    "tabs"
@@ -96,10 +85,6 @@ Chrome 拡張機能の基本的な情報や必要な権限、方針を示すた�
 +  "host_permissions": [
      "*://*/*"
    ],
-   "version": "0.3.3",
--  "manifest_version": 2,
-+  "manifest_version": 3
- }
 ```
 
 
