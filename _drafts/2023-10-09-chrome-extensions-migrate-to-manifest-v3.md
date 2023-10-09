@@ -27,8 +27,8 @@ Chrome 拡張機能の基本的な情報や必要な権限、方針を示すた�
 
 ### 移行するのはなぜか
 
-日々の技術革新やセキュリティ対策など様々な観点から当初想定していた定義ファイルではカバーできない方針設定が必要になることがあります。
-その一環と、あとは保守についてくることができる拡張機能＝開発者が存在する or 継続する意思があるものがユーザーにとって良い拡張機能だろう、というところから移行を推進するのではないかなと思っています。
+日々の技術革新やセキュリティ対策、今後の Google Chrome 自体の方向性など様々な観点から当初想定していた定義ファイルではカバーできない方針変更が必要になることがあります。
+それらを満たすための変更であること、あとは「保守に追従できる拡張機能＝開発者が存在する or 継続する意思がある拡張機能」がユーザーにとって良い拡張機能だろう、というところから移行を推進するのではないかなと思っています。
 完全に持論です。
 
 
@@ -47,10 +47,63 @@ Chrome 拡張機能の基本的な情報や必要な権限、方針を示すた�
 
 移行に際して該当するものにフォーカスを当てて対応するのが望ましいので [Migrate to Manifest V3](https://developer.chrome.com/docs/extensions/migrating/) に習って調べてみました。
 
-- Manifest の更新
-- Service Worker に移行
-- API 呼び出しの更新
-- `chrome.webRequest` リスナーの置き換え
+1. Manifest 自体の更新
+2. バックグラウンド系の処理を Service Worker に移行
+3. Chrome 拡張機能のために用意されたいくつかの API 呼び出し方法の変更
+4. ウェブリクエストリスナー（ `chrome.webRequest` ）の置き換え
+5. セキュリティ向上のための対応
+6. Manifest V3 対応の拡張機能の公開
+
+ざっとこれだけあります。  
+今回ぼくの拡張に該当するのは 1-3 5 6 なので 2 以外ですね。
+
+
+
+#### ① Manifest 自体の更新
+
+これは [Update the manifest](https://developer.chrome.com/docs/extensions/migrating/manifest/) を見ながら進めていけば問題ないです。
+
+- 該当 : Change the manifest version number
+- 該当 : Update host permissions
+- 非該当 : Update web accessible resources
+
+
+```diff
+ {
+   "name": "__MSG_ext_name__",
+   "description": "__MSG_ext_description__",
+   "default_locale": "en",
+   "background": {
+     "page": "background.html"
+   },
+   "options_page": "options.html",
+   "browser_action": {
+     "default_popup": "popup.html",
+     "default_icon": "images/19.png"
+   },
+   "icons": {
+     "16": "images/16.png",
+     "19": "images/19.png",
+     "48": "images/48.png",
+     "64": "images/64.png",
+     "72": "images/72.png",
+     "128": "images/128.png"
+   },
+   "permissions": [
+-    "tabs",
++    "tabs"
++  ],
++  "host_permissions": [
+     "*://*/*"
+   ],
+   "version": "0.3.3",
+-  "manifest_version": 2,
++  "manifest_version": 3
+ }
+```
+
+
+
 
 
 
